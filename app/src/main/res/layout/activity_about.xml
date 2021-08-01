@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aboutDesc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="24dp"
+        android:text="This app allows you to view and modify a database"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/aboutBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="96dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
